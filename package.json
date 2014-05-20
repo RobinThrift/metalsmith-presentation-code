@@ -1,0 +1,19 @@
+{
+  "name": "metalsmith-presentation-code",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobinThrift/metalsmith-presentation-code"
+  },
+  "author": "Robin Thrift <thrift.d.robin@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinThrift/metalsmith-presentation-code/issues"
+  },
+  "homepage": "https://github.com/RobinThrift/metalsmith-presentation-code"
+}
