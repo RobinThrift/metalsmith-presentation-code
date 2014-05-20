@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ title }} | Metalsmith Index</title>
+    <link rel="stylesheet" 
+        href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        {{#each collections.blog}}
+            <article class="post">
+                <h3>{{title}}</h3>
+                <p>{{{contents}}}</p>
+            </article>
+        {{/each}}
+    </div>
+
+</body>
+</html>
